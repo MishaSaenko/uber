@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  background-color: rgb(248, 172, 31);
+  height: 4px;
+  width: 299px;
+  margin: 0 auto;
+}
+
+.header-link {
+  background-color: #ffaf04;
+  color: aliceblue;
+  padding: 5px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.2s;
+  display: inline-block;
+}
+
+.header-link:active {
+  transform: scale(0.97);
+}
+
+.header {
+  background: #222222;
+  text-align: center;
+  color: aliceblue;
+  padding: 10px 0;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cities {
+  background: url(../img/background/bg.jpg) center center/cover no-repeat;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.title {
+  color: #ffffffff;
+  margin-bottom: 10px;
+}
+
+.cities-item {
+  color: aliceblue;
+  font-size: 20px;
+  margin: 10px 0;
+}
